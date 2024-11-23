@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #totalVotes {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .candidate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .candidate-name {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .minus {
+    background: #dc3545;
+  }
+  
+  .minus:hover {
+    background: #a71d2a;
+  }
+  
+  span {
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .invalid-votes {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invalid-votes h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #addCandidate {
+    background: #28a745;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  #addCandidate:hover {
+    background: #218838;
+  }
+  
+/*  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    background: #f4f4f9;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+/* Atur body dan html agar halaman penuh */
+/*html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/*footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  background: #f4f4f9;
+  width: 100%;
+}
+
+  
